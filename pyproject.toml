@@ -1,9 +1,18 @@
 [project]
 name = "dash-favicon-plugin"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "Set favicon plugin for Dash applications using Dash Hooks."
 readme = "README.md"
-requires-python = ">=3.9"
-dependencies = [
-    "feffery-utils-components==0.3.0rc4",
-]
+authors = [{ name = "luojiaaoo", email = "675925864@qq.com" }]
+requires-python = ">=3.8"
+dependencies = ["dash>=3.1.1", "feffery-utils-components"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dash_favicon_plugin"]
+
+[project.urls]
+repository = "https://github.com/luojiaaoo/dash-favicon-plugin"
