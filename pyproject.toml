@@ -1,0 +1,9 @@
+[project]
+name = "dash-favicon-plugin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "feffery-utils-components==0.3.0rc4",
+]
